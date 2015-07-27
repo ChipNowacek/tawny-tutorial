@@ -84,7 +84,7 @@
 ;; ifndef::backend-slidy[]
 ;; [NOTE]
 ;; ====
-;; We have the same problem as before: SIO identifiers are numeric. Refering to
+;; We have the same problem as before: SIO identifiers are numeric. Referring to
 ;; SIO terms by identifier is just a nightmare in this context. We could, of
 ;; course, use clever tooling to help us with the lookup of IDs, but this would
 ;; leave the source code unreadable later.
@@ -170,11 +170,11 @@
 
 ;; * There is something more subtle happening
 ;; * Where is `sio.owl`?
-;; * Actually, it's been packaged as a maven artifact
+;; * Actually, it's been packaged as a maven artefact
 ;; * It's downloaded by leiningen
 ;; * We have decoupled identifier and transport
 ;; * And have reused leiningen/maven infrastructure
-;; * It is an dependency of this project!
+;; * It is a dependency of this project!
 
 ;; ifndef::backend-slidy[]
 ;; [NOTE]

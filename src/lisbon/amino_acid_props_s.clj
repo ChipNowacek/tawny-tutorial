@@ -23,7 +23,7 @@
 
 ;; == Namespace
 
-;; * By now you shold be familiar with the name space definition
+;; * By now you should be familiar with the name space definition
 ;; * It is different.
 ;; * The `:use` clause means "use both `tawny.owl` and `tawny.pattern`".
 
@@ -48,7 +48,7 @@
 
 ;; * Amino Acids have many properties
 ;; * Most of these are _continuous_
-;; * Hard to model Ontologically
+;; * Hard to model ontologically
 
 ;; ifndef::backend-slidy[]
 ;; [NOTE]
@@ -63,7 +63,7 @@
 ;; == The Value Paritition
 
 ;; * We introduce the "value partition"
-;; * We split a continous range up into discrete chunks
+;; * We split a continuous range up into discrete chunks
 ;; * Like the colours of the rainbow
 ;; * First we define the partition itself
 ;; * AminoAcid's have a size, and only one size!
@@ -201,7 +201,7 @@
 ;; ====
 ;; I had a number of options for the implementation of facets. It would be
 ;; possible to do this without having them visible in the ontology, but this
-;; seemed to the best way forward. Happy to solict opinions on this.
+;; seemed to the best way forward. Happy to solicit opinions on this.
 ;; ====
 ;; endif::backend-slidy[]
 

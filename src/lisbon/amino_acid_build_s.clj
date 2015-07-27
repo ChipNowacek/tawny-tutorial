@@ -1,7 +1,7 @@
 ;; == Task {counter:task}: Create New Syntax
 
 ;; * Create new syntax describing the amino-acids
-;; * Create some defined defined classes
+;; * Create some defined classes
 ;; * Create all the defined classes
 ;; * Use the reasoner
 
@@ -18,7 +18,7 @@
 ;; ifndef::backend-slidy[]
 ;; [NOTE]
 ;; ====
-;; This is going to be a highly advanced, showing an high programmatic use of
+;; This is going to be a highly advanced, showing a high programmatic use of
 ;; Tawny. In this course of this we will generate some brand new syntax -- this
 ;; demonstrates one of the uses of tawny -- while it is harder to generate this
 ;; new syntax, than just use existing, once you have done it is easier to use.
@@ -131,7 +131,7 @@
 ;; [NOTE]
 ;; ====
 ;; The function for making a new amino acid is relatively simple, as these
-;; things go. It just passes off most of it's work to `owl-class`. We could also
+;; things go. It just passes off most of its work to `owl-class`. We could also
 ;; add "AminoAcid" as a superclass here, but I chose to do this later for reasons
 ;; that should become apparent.
 
@@ -141,7 +141,7 @@
 
 ;; We cannot just replace `owl-class` with `defclass` to achieve this. The
 ;; explanation requires knowledge of lisp, but it is this: because amino-acid is
-;; a function it's arguments are evaluated so we cannot pass a bare symbol --
+;; a function its arguments are evaluated so we cannot pass a bare symbol --
 ;; Clojure will crash. More `defclass` is a macro, so it will be called when the
 ;; `amino-acid` is evaluated NOT called. We have to make a macro to do this.
 ;; ====
@@ -169,7 +169,7 @@
 
 ;; `defentity` does one or two other things as well, chiefly adding metadata to
 ;; the var created. If you don't know what this means (unless you know clojure
-;; you probably wont) then it really isn't important.
+;; you probably won't) then it really isn't important.
 ;; ====
 ;; endif::backend-slidy[]
 
@@ -233,7 +233,7 @@
 
 ;; * Now we can define all the amino-acids in one go.
 ;; * The syntactic regularity means we are unlikely to miss something.
-;; * For me, this makes the effort worth while.
+;; * For me, this makes the effort worthwhile.
 ;; * We also define subclasses, disjoints and covering.
 ;; * Pay attention to the `:cover`
 
@@ -418,14 +418,14 @@
 ;; The reasoner is invoked to check consistency automatically. Tawny uses a GUI
 ;; (a progress bar) by default to show this process, but falls back to text if
 ;; that is not possible (so you can check consistency in a CI environment without
-;; hassles.
+;; hassle).
 ;; ====
 ;; endif::backend-slidy[]
 
 ;; == Reasoning
 
 ;; * We can count numbers
-;; * We have reasoned many subclases of `AminoAcid`
+;; * We have reasoned many subclasses of `AminoAcid`
 
 ;; [source,lisp]
 ;; ----
@@ -477,8 +477,8 @@
 
 ;; == Visualising
 
-;; * Many defined classes are equiavlent
-;; * Many are unsatifisable
+;; * Many defined classes are equivalent
+;; * Many are unsatisfiable
 ;; * Happens because there are 20 amino-acids
 ;; * But 700 defined classes
 ;; * Many defined classes have necessarily the same extent
@@ -503,7 +503,7 @@
 ;; want this form of conclusion depends on whether we are talking about biology
 ;; or chemistry -- after all if we were a chemist many amino acids could be
 ;; created that separate out of equivalent classes, and many make some
-;; unsatisifiable classes satisfiable.
+;; unsatisfiable classes satisfiable.
 
 ;; Life is complex but, in this case, simpler than chemistry.
 ;; ====
@@ -514,7 +514,7 @@
 
 ;; * Using defined classes as a query
 ;; * Not that useful
-;; * Most of the infered subclasses are defined!
+;; * Most of the inferred subclasses are defined!
 
 ;; [source,lisp]
 ;; ----

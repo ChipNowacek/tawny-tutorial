@@ -1,5 +1,5 @@
 
-== Tawny-OWL and it's environment
+== Tawny-OWL and its environment
 
 * Now, describe Tawny-OWL and environment
 ** Java/JDK

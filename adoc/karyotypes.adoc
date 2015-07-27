@@ -89,7 +89,7 @@ ifndef::backend-slidy[]
 [NOTE]
 ====
 But the UI doesn't scale in this way. It involves an awful lot of clicking --
-one report I have heard suggests that protege users spend upto 50% of their
+one report I have heard suggests that protege users spend up to 50% of their
 time expanding and closing the hierarchy. With the karyotype ontology this
 problem would be profound. Worse, with the karyotype ontology we have a
 specific computational use in mind, and we don't know what the performance is
@@ -140,7 +140,7 @@ ifndef::backend-slidy[]
 ====
 The main API out there is the OWL API. It's nice, but is long winded,
 and difficult, both because of the complexity of a type system needed for OWL
-(from the javadoc it is hard to work out which methods can be invoked on which
+(from the Javadoc it is hard to work out which methods can be invoked on which
 type), the change object system (so, you can use AddAxiom to add an annotation
 to an ontology, but only if you don't care about it working), and the factory
 layer. All complex.
@@ -170,10 +170,10 @@ brain.subClassOf("Nucleus", "part-of some Cell");
 ifndef::backend-slidy[]
 [NOTE]
 ====
-Another option, writtem by Samuel Croset is Brain. Much lighter weight than
+Another option, written by Samuel Croset is Brain. Much lighter weight than
 the OWL API. But EL only, and it is unclear how to marry what is essentially a
 script with Java's OO design. And still we keep the essential characteristics
-of Java. Any changes require, recompile, restart: it is slow.
+of Java. Any changes require, recompile, and restart: it is slow.
 ====
 endif::backend-slidy[]
 
@@ -181,12 +181,12 @@ endif::backend-slidy[]
 
 * R provides an interactive, exploratory environment for stats
 * Command line shell, wrapped by several GUIs
-* Language is convienient to type and use
+* Language is convenient to type and use
 
 {set:incremental}
 
 * It's not all good!
-* The syntax can be bizzare
+* The syntax can be bizarre
 * The language semantics are strange
 
 {set:incremental!}
@@ -195,7 +195,7 @@ ifndef::backend-slidy[]
 [NOTE]
 ====
 So, my paragon here is R, the statistical language. It is interactive,
-convienient to use. It can be used cleanly in batch. In general, very nice.
+convenient to use. It can be used cleanly in batch. In general, very nice.
 Not to say that I want to copy all of its features though.
 ====
 endif::backend-slidy[]

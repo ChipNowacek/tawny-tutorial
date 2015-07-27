@@ -32,7 +32,7 @@
 ;; a very programmatic feel to the experience. They also tend to use a lot of
 ;; resource, which might not be ideal on laptops.
 
-;; More over, the practical reality is that I do not use one myself and can only
+;; Moreover, the practical reality is that I do not use one myself and can only
 ;; give partial help on them.
 ;; ====
 ;; endif::backend-slidy[]
@@ -51,7 +51,7 @@
 ;; is, itself, a Clojure application and works quite nicely.
 
 ;; It is not, of course, a fully featured environment. If you want to develop
-;; seriously, them you'd need to move to something else.
+;; seriously, then you'd need to move to something else.
 
 ;; It does, however, reinforce the point that we are using a commodity language.
 ;; There are many powerful tools around.
@@ -60,7 +60,7 @@
 
 ;; == Catnip
 
-;; * Assuming you have followed pre-requisities launch with:
+;; * Assuming you have followed pre-requisites launch with:
 
 ;; `lein edit`
 
@@ -89,5 +89,5 @@
 
 ;; * We have defined a new *namespace*
 ;; * Created a variable (`hello`)
-;; * *Evaluated* `hello` to find it's value (prosaically "hello world")
+;; * *Evaluated* `hello` to find its value (prosaically "hello world")
 ;; * This is the basic Clojure workflow

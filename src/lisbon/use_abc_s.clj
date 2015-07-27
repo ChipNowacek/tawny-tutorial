@@ -5,7 +5,7 @@
 ;; == Importing
 
 ;; * Many Ontologies import other ontologies
-;; * Allows cross-linking, and resuse of work
+;; * Allows cross-linking, and reuse of work
 ;; * Tawny supports this also
 
 
@@ -47,10 +47,10 @@
 ;; commitment]. And it may not be one that want, it may not be one that you agree
 ;; with, and it may be one that contradicts your actual use case.
 
-;; Do not go contiually looking for terms that you can use and reuse. Consider
+;; Do not go continually looking for terms that you can use and reuse. Consider
 ;; searching for terms when you realise that you are getting too far away from
 ;; the core requirements for your ontology, from your competency questions. If
-;; you really like someone elses definition, cut-and-paste it, give it your own
+;; you really like someone else's definition, cut-and-paste it, give it your own
 ;; identifiers, and comment that you have done so. Maybe, once you have five or
 ;; six terms from the same ontology, then *consider* importing the other
 ;; ontology. And don't blame me if it goes wrong.
@@ -61,7 +61,7 @@
 
 ;; * However, reuse is inevitable
 ;; * And sometimes good
-;; * So, how do we do it.
+;; * So, how do we do it?
 ;; * In tawny, there are two steps, *use* and *import*
 
 ;; [source,notlisp]
@@ -88,7 +88,7 @@
 ;; * We have seen `use` many times before
 ;; * A namespace with an ontology can be `use`'d like any other
 ;; * Here we use `require`
-;; * Helps to avoid name collisons
+;; * Helps to avoid name collisions
 
 ;; [source,notlisp]
 ;; ----
@@ -155,7 +155,7 @@
 ;; ifndef::backend-slidy[]
 ;; [NOTE]
 ;; ====
-;; Here, we are reusing basic clojure functionality and it's namespacing
+;; Here, we are reusing basic clojure functionality and its namespacing
 ;; mechanism. That the symbols refer to ontology terms really makes no
 ;; difference.
 

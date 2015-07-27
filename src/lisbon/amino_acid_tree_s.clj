@@ -112,7 +112,7 @@
 ;; ====
 ;; endif::backend-slidy[]
 
-;; == Explict Definition
+;; == Explicit Definition
 
 ;; * Tawny uses explicit definition
 ;; * Variables must be defined *before* use
@@ -155,7 +155,7 @@
 ;; [NOTE]
 ;; ====
 ;; Before we show the solution to the disjoint problem, we simplify our
-;; definitions. Typing `:super AminoAcid` a lot is a pain also, so lets avoid
+;; definitions. Typing `:super AminoAcid` a lot is a pain also, so let's avoid
 ;; that. We introduce a new function, `as-subclasses`
 
 ;; The advantage of lexically grouping all of the subclasses in this way is also
@@ -219,7 +219,7 @@
 ;; name them all. But to a chemist, it is demonstrably false as there are many,
 ;; many amino acids. How we scope the ontology and frame our competency questions
 ;; can very much affect the model that we build. We will show later that this
-;; axiom has a very significant affect on the end model, much more significant
+;; axiom has a very significant effect on the end model, much more significant
 ;; than you might presuppose at the moment.
 ;; ====
 ;; endif::backend-slidy[]
@@ -299,12 +299,12 @@
 ;; [NOTE]
 ;; ====
 ;; I have not shown all the OMN because it is long and tedious, but these are the
-;; keypoints added by the subclasses function.
+;; key points added by the subclasses function.
 
 ;; If you evaluated the `:disjoint Alanine` definitions early (and they did not
 ;; crash!), then you will find that there are some `Disjoint:` frames on
 ;; individual amino acids also. These make no semantic difference and are an
-;; artifact of the tutorial.
+;; artefact of the tutorial.
 ;; ====
 ;; endif::backend-slidy[]
 

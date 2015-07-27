@@ -6,8 +6,8 @@
 * Unprogrammatic syntax, minimal baggage
 * Evaluative
 * Broadcasting
-* Patternized
+* Patternised
 * Fully Extensible
 * Integrated Reasoning
-* Build on commondity language
+* Build on commodity language
 * Access to fully programming Tool Chain

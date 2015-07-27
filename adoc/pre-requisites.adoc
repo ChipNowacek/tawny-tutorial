@@ -30,13 +30,13 @@
 
 * This is a Clojure build tool
 * http://leiningen.org/
-* Download the shell script (Linux,Mac) and run it!
+* Download the shell script (Linux, Mac) and run it!
 * Or your package manager (*leiningen 2* -- lein 1 will not work)
 * For Windows, the installer works
 * http://leiningen-win-installer.djpowell.net/
 * Or you can download the batch file and setup manually
 
-== Testing the Pre-Requisities
+== Testing the Pre-Requisites
 
 * In the terminal/cmd, in tawny-tutorial directory
 
@@ -62,4 +62,4 @@ http://protege.stanford.edu
 * VIM Fireplace
 * Any of the many other options
 * If you do this, you are on your own...
-* You will get a much stronger editing environment thanotherwise
+* You will get a much stronger editing environment than otherwise

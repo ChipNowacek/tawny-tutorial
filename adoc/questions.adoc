@@ -24,7 +24,7 @@
 - How does this affect ontology deployment?
 - How do you version your ontology?
 - How do you test your ontology?
-- How do you continously integrate your ontology?
+- How do you continuously integrate your ontology?
 - What about advanced documentation for ontologies?
 - How do I collaboratively develop my ontology?
 - Can I internationalise my ontology?
@@ -32,7 +32,7 @@
 - What happens if the labels of read ontologies change?
 - How do you convert an existing ontology to Tawny?
 - How fast is tawny?
-- Can I integrate more tightly with protege?
+- Can I integrate more tightly with Protege?
 - How does Tawny affect dependency management with ontologies?
 - Can I link ontologies into software?
 - What's this `:super`? why not `:subclass`?

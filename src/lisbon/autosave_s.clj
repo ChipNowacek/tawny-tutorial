@@ -41,7 +41,7 @@
 ;; circles; it may disappear in future versions (although it will be replaced
 ;; with something else somewhat more verbose). The reason for this is that `:use`
 ;; is a hostage to the future. If I `use` a namespace and it gains a new
-;; function, we could end up with a name collison. So, if `clojure.core` adds an
+;; function, we could end up with a name collision. So, if `clojure.core` adds an
 ;; `only` function, it would require changes to any namespace which `use`'d
 ;; `tawny.owl`
 
@@ -51,7 +51,7 @@
 ;; which I want to extend `tawny.owl`, I tend to `require tawny.owl` normally
 ;; aliased to `o`.
 
-;; The name collison between `import` and `owl-import` is sort of an example of
+;; The name collision between `import` and `owl-import` is sort of an example of
 ;; this problem.
 
 ;; [source,lisp]
@@ -68,7 +68,7 @@
 
 ;; * We need a variable in which to save our listener
 ;; * Clojure variables are immutable
-;; * Stores a `atom` and change that
+;; * Stores an `atom` and change that
 
 ;; [source,lisp]
 ;; ----
@@ -86,14 +86,14 @@
 ;; changes.
 
 ;; It's very nice and very sensible, but largely we just ignore it here. The
-;; reality with tawny is that the it's build on the OWL API which is mutable, is
+;; reality with tawny is that it's built on the OWL API which is mutable, is
 ;; not thread-safe and is not build for concurrency.
 ;; ====
 ;; endif::backend-slidy[]
 
 ;; == The auto-save function
 
-;; * OWL API has an listener for ontology changes
+;; * OWL API has a listener for ontology changes
 ;; * We address it directly here.
 
 ;; [source,lisp]
@@ -186,14 +186,14 @@
 ;; [NOTE]
 ;; ====
 ;; I've used Clojure's java interaction extensively during the development of the
-;; Tawny and I have to say I found it to be very nice. It fits very comfortably
+;; Tawny and I have to say I found it to be very nice. It fits comfortably
 ;; with normal Clojure development.
 
 ;; In general, I hide the existance of the `OWLOntologyManager`, and the
 ;; `OWLOntologyDataFactory`. Generally, there is only one. There are more
 ;; flexible approaches, of course, but I have had to make decisions in the
 ;; development of tawny. Otherwise, pretty much every function would require a
-;; Manager, or Factory and an ontology as a argument and tawny, as it stands
+;; Manager, or Factory and an ontology as an argument and tawny, as it stands
 ;; would have become unusable.
 
 ;; You might be wondering why `owl-ontology-manager` is a function call and not

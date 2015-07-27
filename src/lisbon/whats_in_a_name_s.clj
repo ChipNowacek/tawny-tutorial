@@ -15,7 +15,7 @@
 
 ;; == OWL
 
-;; * Tawny is build on the OWL API
+;; * Tawny is built on the OWL API
 ;; * Underneath, therefore, it is part of the web
 ;; * OWL uses IRIs (i.e. URIs or URLs)
 ;; * IRIs provide a single, shared global namespace
@@ -143,7 +143,7 @@
 ;; == Symbols and IRIs
 
 ;; * The relationship is programmatically defined
-;; * We can change it to what ever we want
+;; * We can change it to whatever we want
 ;; * Using the `:iri-gen` frame to supply a function
 ;; * Here we reverse the symbol name
 ;; * We call the symbol name: "the tawny name"
@@ -185,7 +185,7 @@
 
 ;; <1> Create an anonymous function, with parameters `ont` and `name`
 ;; <2> Create an IRI object from the string
-;; <3> Concatentate all arguments
+;; <3> Concatenate all arguments
 ;; <4> Get the Ontology IRI
 ;; <5> "#"
 ;; <6> Reverse the name passed in!
@@ -207,7 +207,7 @@
 ;; ====
 ;; With protege or another GUI, we can use the underlying identifiers and display
 ;; something different to the user. With source code, we cannot. Clearly
-;; something like the example above is just not acceptible (although it is
+;; something like the example above is just not acceptable (although it is
 ;; actually legal tawny code or lisp).
 ;; ====
 ;; endif::backend-slidy[]
@@ -334,14 +334,14 @@
 ;; ifndef::backend-slidy[]
 ;; [NOTE]
 ;; ====
-;; While the preiris are automatically created, if we choose they can be made
+;; While the pre-iris are automatically created, if we choose they can be made
 ;; stable by simply saving them into the file with the form above. This can be
 ;; safely done every time the file is evaluated, because the order is
 ;; deterministic, so it will cause no false diffs in versioning.
 
 ;; This is potentially useful if you are collaborating with others and want to
 ;; co-ordinate at pre-release time. It's not essential if others are using
-;; tawny -- there is no need, since classes can be refered to by symbol.
+;; tawny -- there is no need, since classes can be referred to by symbol.
 
 ;; There is a potential disadvantage. This creates an IRI (and entry in the file)
 ;; for every new entity created. Not a problem with protege, but tawny is fully
@@ -351,7 +351,7 @@
 ;; ====
 ;; endif::backend-slidy[]
 
-;; == How OBO Identifers work
+;; == How OBO Identifiers work
 
 ;; * How to create permanent IDs
 ;; * Needs to be co-ordinated, since IDs are incremental
@@ -360,7 +360,7 @@
 
 ;; [source,lisp]
 ;; ----
-;; this coins permanent IDS, in a controlled process!
+;; this coins permanent IDs, in a controlled process!
 (comment
   (tawny.obo/obo-generate-permanent-iri
    "./src/lisbon/whats_in_a_name.edn"

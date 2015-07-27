@@ -68,10 +68,10 @@
 ;; [NOTE]
 ;; ====
 ;; Normally, you read an ontology into a namespace with nothing else in it, if
-;; for no other reason than to avoid name collisons.
+;; for no other reason than to avoid name collisions.
 
 ;; Also, note that we are using the OWL file from local, which gives us a degree
-;; of flexibility -- you do not want to download GO everytime you restart the REPL.
+;; of flexibility -- you do not want to download GO every time you restart the REPL.
 
 ;; Although not covered here, `defread` is highly configurable. You can filter
 ;; just the terms you want, change the names as you chose.
@@ -91,7 +91,7 @@
 
 ;; == Reading
 
-;; * And access it's value by symbol
+;; * And access its value by symbol
 ;; * Symbols must be defined.
 
 ;; [source,lisp]

@@ -88,8 +88,8 @@
 ;; we move through the tutorial.
 
 ;; The name is also used as a prefix when saving the ontology (although this can
-;; be overriden), so I tend not to use hyphens, as it messes with syntax
-;; hightlight for my Manchester syntax viewer.
+;; be overridden), so I tend not to use hyphens, as it messes with syntax
+;; highlight for my Manchester syntax viewer.
 ;; ====
 ;; endif::backend-slidy[]
 
@@ -147,7 +147,7 @@
 ;; Properties use defoproperty. There are also annotation and object properties,
 ;; and I have opted for somewhat opaque function names to avoid a large amount of
 ;; typing. Hard to know whether this was a great decision or not, but the
-;; alternative really seemed various unreadable to me. More over, there are only
+;; alternative really seemed various unreadable to me. Moreover, there are only
 ;; a few of these names, and OWL 3 is unlikely to come along any time soon.
 ;; ====
 ;; endif::backend-slidy[]
@@ -277,7 +277,7 @@
 ;; * Could also just change `defclass` form and re-evaluate
 ;; * `:label` and `:comment` add annotations using OWL built-in
 ;; * `:annotation` is general purpose frame
-;; * We add a label in Portugese
+;; * We add a label in Portuguese
 ;; * Re-save the ontology
 
 ;; [source,lisp]

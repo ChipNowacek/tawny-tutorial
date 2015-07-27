@@ -7,10 +7,10 @@
 ;; * Unprogrammatic syntax, minimal baggage
 ;; * Evaluative
 ;; * Broadcasting
-;; * Patternized
+;; * Patternised
 ;; * Fully Extensible
 ;; * Integrated Reasoning
-;; * Build on commondity language
+;; * Build on commodity language
 ;; * Access to fully programming Tool Chain
 
 
@@ -50,7 +50,7 @@
 ;; ====
 
 ;; For those of you from a functional programming background, tawny is not very
-;; functional. It is usuable as an API for manipulating ontologies, but was not
+;; functional. It is usable as an API for manipulating ontologies, but was not
 ;; really designed for that purpose. Still, it is no worse for this than the
 ;; OWL API.
 
@@ -86,7 +86,7 @@
 
 ;; == Unprogrammatic Syntax
 
-;; * Are many OWL syntaxes to chose from
+;; * Are many OWL syntaxes to choose from
 ;; * Functional, Concrete, XML.
 ;; * Or RDF (RDF/XML, Turtle, N3)
 ;; * Manchester (OMN) syntax designed for typing
@@ -166,7 +166,7 @@
 
 ;; Being a programming language rather than a format it is relatively easy to add
 ;; new features with a clearly defined semantics. So, for example, I wanted to
-;; add a "sub" keyword so that I could build ontologeis bottom up. In practice,
+;; add a "sub" keyword so that I could build ontologies bottom up. In practice,
 ;; so far I have not really used this, but I do not feel that the syntax should
 ;; dictate the ontology development style.
 
@@ -194,7 +194,7 @@
 ;; The other major one is the use of an "explicit definition" semantics. Classes
 ;; must be defined before they are used by other classes. This is a semantics
 ;; shared with Brain, and was chosen deliberately. My early experience with OMN
-;; showed that it was too easy to make typo's without.
+;; showed that it was too easy to make typos without.
 
 ;; It is possible to avoid this if you wish.
 
@@ -272,7 +272,7 @@
 ;; ====
 
 ;; Broadcasting is a really very handy feature from R. You do not have to
-;; explictly deal with the lists and numbers (ontology entities in the case of
+;; explicitly deal with the lists and numbers (ontology entities in the case of
 ;; tawny).
 
 ;; ====
@@ -390,7 +390,7 @@
 ;; ====
 ;; In theory, tawny does nothing that it is not possible to do already. But the
 ;; single syntax and environment is important. I can easily add new syntax even
-;; for a specific ontology. Doing this where half the ontology is build in
+;; for a specific ontology. Doing this where half the ontology is built in
 ;; protege and half outside is just intractable. With a single syntax it becomes
 ;; so easy that it happens often and all the time.
 ;; ====
@@ -436,7 +436,7 @@
 ;; ====
 
 ;; Most of this I am not going to show anything other than implicitly, but tawny
-;; is based on a commodity language. So it access to many APIs which can do
+;; is based on a commodity language. So it has access to many APIs which can do
 ;; useful things for you. We have used quite a few of these either in the context
 ;; of programming tawny or in developing OWL ontologies using tawny (in fact all
 ;; of those given here).
@@ -475,11 +475,11 @@
 ;; (take a look at lighttable -- implemented in Clojure and supporting it first).
 
 ;; We also make extensive use of version control -- we've been using git, but you
-;; can use what ever you want. You can integrate your ontology development
+;; can use whatever you want. You can integrate your ontology development
 ;; process and software development process.
 
 ;; Dependency -- we'll see later how to access ontologies using the maven
-;; dependency management system. Some one else can host your ontology without
+;; dependency management system. Someone else can host your ontology without
 ;; having to use their URIs!
 
 ;; Testing, continuous integration. Remote evaluation (actually, you will use
